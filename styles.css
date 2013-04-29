@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+#graphic-container { max-width:1230px;}
+  #graphic-container .chapter	{ float:left; width:100%;}
+	#graphic-container img {width:100%;}
+	#graphic-container .estirar{display:inline-block}
+	#graphic-container .estirar{display:block}
+	* html .estirar{height:1px}
+	#graphic-container .photo-credit {color:#999; font-size:10px; text-align:right; text-transform:uppercase; margin:0.2em 0}
+	#graphic-container .photo-caption {font-weight:bold;}
+	#graphic-container a {color:#666; text-decoration:none;}
+	#graphic-container a:hover {color:#900; text-decoration:underline;}
+
+#graphic-container #timeline{ background:#EEEFEC; height:20px; position:relative;}
+	#graphic-container .event { background:rgba(200,150,150,0.8); height:20px; width:3px; position:absolute; top:0;}
+	#graphic-container .selected-event { background:rgba(0,0,0,1)!important; width:5px!important}
+	#graphic-container #tagname { position:absolute; padding:0.5em; background:#FFF; box-shadow:1px 1px 8px #CCC; z-index:300; max-width:300px;}
+		#graphic-container .time { font-family:Arial, Helvetica, sans-serif; color:#999; font-size:0.6em; text-transform:uppercase; margin-bottom:0.5em;}
+		#graphic-container .headline-event { font-family:Arial, Helvetica, sans-serif;}
+
+#graphic-container #prevnext { margin-top:0.5em; margin-bottom:1em}
+	#graphic-container .arrower {border:1px solid #EEE; display:inline; padding:0.5em 0.8em; font-family:Arial, Helvetica, sans-serif; font-size:0.85em;}
+	#graphic-container .explanation {float:left; text-align:center;}
+	#graphic-container #prev-arrow {float:left;}
+	#graphic-container #next-arrow {float:right;}
+	
+#graphic-container .piece-content { margin-top:1em; width:80%; margin:0 10%; }
+	#graphic-container .text-part{ width:35%; margin-right:3%; display:inline; float:left;}
+		#graphic-container .piece-date{ color:#900; text-transform:uppercase; font-family:Arial, Helvetica, sans-serif; font-size:0.85em }
+		
+		#graphic-container .piece-head{ font-family:Georgia, "Times New Roman", Times, serif; font-size:1.2em; margin-bottom:1em}
+		#graphic-container .piece-text{line-height: 1.46153846; font-size:100%; color:#464646; font-family:Georgia, "Times New Roman", Times, serif; }
+	#graphic-container .image-part{ width:62%; display:inline; float:left}
+	#graphic-container .photo-episode{ padding-bottom:1em; margin-bottom:1em; border-bottom:1px solid:#EEE;}
+	#graphic-container .moreinfo{ padding:0.5em 0; font-weight:bold;}
+
+
+@media only screen and (max-width: 500px) {
+	#graphic-container .text-part{ width:100%; margin-bottom:1em; margin-right:0%;}
+	#graphic-container .image-part{ width:100%;}
+}
