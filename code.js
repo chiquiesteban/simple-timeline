@@ -50,9 +50,7 @@ $(document).on('mousemove',function(e){
 		$(this).css("background","#FFF").css("color","#000");
 	});
 	
-})
-
-$('#prev-arrow').click(function() {
+	$('#prev-arrow').click(function() {
 	var selec = ($('.selected-event').attr('id'));
 	if (selec == "e0") {
 	} else {
@@ -70,6 +68,8 @@ $('#next-arrow').click(function() {
 		showContent((goto[1]*1)+1)
 	}
 });
+	
+})
 
 function hoverEvent(i){
 	$('#e'+i).css("background","rgba(0,0,0,0.5)").css("cursor","pointer")
