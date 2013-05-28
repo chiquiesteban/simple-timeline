@@ -13,3 +13,6 @@ Text --> Text of the item
 Multimedia content --> In thsi space you can upload whatever you want: photos, HTML, video... is just an empty space for you to fill.
 Link --> URL if you want to refer to a different URL withn more info
 Linked content --> Text for that link
+
+You can see an example of this template working here:
+http://www.bostonglobe.com/metro/2013/04/28/bombreconstruct/VbSZhzHm35yR88EVmVdbDM/igraphic.html
